@@ -21,6 +21,7 @@ button {
 }
 
 .logo {
+  cursor: pointer;
   width: 135px;
   height: 30px;
 }
@@ -100,6 +101,7 @@ button {
   }
 
   &__icon {
+    cursor: pointer;
     width: 16px;
     height: 16px;
   }
@@ -139,11 +141,13 @@ button {
   }
 
   &__profile-src {
+    cursor: pointer;
     margin-left: 10px;
     padding: 0;
   }
 
   &__profile-name {
+    cursor: pointer;
     margin-left: 19px;
     font-size: 14px;
     color: #768298;
