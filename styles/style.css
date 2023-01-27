@@ -4,9 +4,13 @@ body {
   font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .container {
   margin: 0 auto;
-  max-width: 1170px;
+  max-width: 1240px;
 }
 
 button {
@@ -118,6 +122,11 @@ button {
   margin: auto;
   column-gap: 50px;
 }
+@media (min-width: 1280px) {
+  .header-container__wrap {
+    padding: 0;
+  }
+}
 .header-container__profile {
   width: 148px;
   display: flex;
@@ -142,7 +151,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 270px;
+  max-width: 287.5px;
   width: calc((100vw - 768px) / 672 * 41 + 229px);
   height: 120px;
   border: 1px solid #EBEBF1;
@@ -155,12 +164,12 @@ button {
 }
 @media screen and (min-width: 1440px) {
   .partner {
-    flex-basis: 23%;
+    flex-basis: 23.2%;
   }
 }
 @media screen and (max-width: 1440px) {
   .partner {
-    flex-basis: 23%;
+    flex-basis: 23.2%;
   }
 }
 @media screen and (max-width: 910px) {
@@ -184,6 +193,11 @@ button {
 
 .partners {
   padding: 0 20px;
+}
+@media (min-width: 1240px) {
+  .partners {
+    padding: 0;
+  }
 }
 .partners__box {
   padding: 0;
@@ -210,11 +224,11 @@ button {
   letter-spacing: -0.03em;
   text-transform: uppercase;
   color: #121920;
-  line-height: 57.6px;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .partners__title {
     font-size: 36px;
+    line-height: 57.6px;
   }
 }
 @media screen and (max-width: 1280px) {
